@@ -1,8 +1,24 @@
-section>input{
+section>.content>input{
     padding: 15px;
 }
-section>button{
+section>.content>button{
     padding: 15px;
     background: black;
     color: white;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: inline block;
+    width: 80vw;
+}
+.content>input{
+    width: 80%;
+}
+.content>button{
+    width: 14%;
 }
