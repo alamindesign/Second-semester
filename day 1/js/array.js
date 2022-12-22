@@ -1,2 +1,4 @@
 let hobbies = ['Programming','Gamming','Football','Music','Bedmintor']
-document.write(hobbies[0]);
+for(i=0;i<hobbies.length;i++){
+    document.write(hobbies[i]+"<br/>");
+}
